@@ -1,0 +1,9 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+.drill {
+  margin-top: 10px;
+  border-top: solid 1px rgba(0, 0, 0, 0.2);
+}
