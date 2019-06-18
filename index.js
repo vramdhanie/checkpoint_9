@@ -33,11 +33,6 @@ const costs = {
 /**
  * Write the objectForEach function here
  */
-function objectForEach(obj, callback) {
-  for (const key in obj) {
-    callback(obj[key]);
-  }
-}
 
 /**
  * Write a function named objectSum as a callback for forEach
@@ -50,30 +45,15 @@ let totalCost = 0;
 /**
  * Write object Sum here
  */
-function objectSum(value) {
-  totalCost += value;
-}
 
 /**
  * Invoke objectForEach with objectSum here
  */
-objectForEach(costs, objectSum);
 
 /**
  * Write the function named objectMap here
  */
 
-function objectMap(obj, callback) {
-  const result = {};
-  for (key in obj) {
-    result[key] = callback(obj[key]);
-  }
-  return result;
-}
-
 /**
  * Write the function named usToUk here
  */
-function usToUk(us) {
-  return us * 0.79;
-}
